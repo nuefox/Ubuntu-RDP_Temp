@@ -24,7 +24,7 @@ on:
         default: 123456
         type: number
       CRP:
-        description: 'Visit at http://remotedesktop.google.com/headless and, copy a command after authentication'
+        description: 'DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0Aci98E-ozTpqUpFS7fEpseACpa5kyyweIy8IG1SXbyutDY1KRqnDeY_8UWT5l94UhJpzIg" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)'
         required: false
         type: string
 
