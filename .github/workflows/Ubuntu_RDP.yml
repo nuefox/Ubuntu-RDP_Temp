@@ -11,12 +11,12 @@ on:
       username:
         description: 'Enter Username:'
         required: false
-        default: user
+        default: szyldek
         type: string
       password:
         description: 'Enter Password:'
         required: false
-        default: root
+        default: szyldek
         type: string
       Pin:
         description: 'Enter a Pin (more or equal to 6 digits)'
